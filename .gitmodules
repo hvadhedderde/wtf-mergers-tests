@@ -1,6 +1,0 @@
-[submodule "src/build"]
-	path = src/build
-	url = https://github.com/hvadhedderde/js-merger.git
-[submodule "src/build2"]
-	path = src/build2
-	url = https://github.com/hvadhedderde/js-merger.git
