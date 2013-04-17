@@ -1,6 +1,6 @@
 [submodule "src/js/lib/build"]
 	path = src/js/lib/build
-	url = https://github.com/hvadhedderde/js-merger.git
+	url = https://github.com/hvadhedderde/wtf-js-merger.git
 [submodule "src/css/lib/build"]
 	path = src/css/lib/build
 	url = https://github.com/hvadhedderde/css-merger.git
