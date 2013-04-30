@@ -1,0 +1,2 @@
+//local
+var absolute;
