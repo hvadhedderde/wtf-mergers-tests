@@ -1,0 +1,3 @@
+[submodule "submodules/wtf-js-merger"]
+	path = submodules/wtf-js-merger
+	url = https://github.com/hvadhedderde/wtf-js-merger.git
