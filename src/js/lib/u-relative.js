@@ -1,4 +1,0 @@
-/*
-** relative
-*/
-var relative;

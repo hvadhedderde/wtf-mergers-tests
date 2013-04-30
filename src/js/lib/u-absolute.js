@@ -1,2 +1,0 @@
-//local
-var absolute;

@@ -1,2 +1,2 @@
-test - 2
+WhatTheFramework - CSS/JS Mergers tests
 ====
