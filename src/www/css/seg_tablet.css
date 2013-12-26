@@ -1,126 +1,36 @@
 
+/*seg_tablet_include.css*/
+
 /*s-absolute.css*/
 .absolute {position: absolute;}
 
 /*s-relative.css*/
 .relavtive {position: relative;}
 
-/*s-documentation.css*/
-.c {font-size: 0;}
-.c400, .c300, .c200, .c100, .c50 {display: inline-block; vertical-align: top; font-size: 0; min-height: 10px;}
-.c400 {width: 960px;}
-.c300 {width: 720px;}
-.c200 {width: 480px;}
-.c100 {width: 240px;}
-.c50 {width: 120px;}
-#content .section {padding: 0 0 20px;}
-#content .section .body {}
-#content {display: block; width: auto;}
-#content h1 {padding-top: 30px;}
-#content span.var {font-style: italic; color: #880088; font-weight: bold;}
-#content span.value {font-style: italic; color: #880088;}
-#content span.domnode {font-style: italic; color: #880088;}
-#content span.attribute {font-style: italic; color: #880088;}
-#content span.type {font-style: italic; font-weight: bold; color: pink;}
-#content span.file {font-style: italic;}
-#content .todo {color: red;}
-#content .promotion {margin: 0 20px 20px; padding: 20px 0 10px; border-radius: 5px; border: 1px solid #dedede}
-#content .promotion .actions {text-align: right; margin-right: 10px;}
-.front #content ul.wtfgoal {margin: 0 0 0 20px; padding: 0 0 0 20px; list-style: disc;}
-.front #content ul.wtfgoal li {padding-bottom: 10px;}
-.library #content #library_files {padding-top: 30px;}
-.library #content #library_files li {position: relative; z-index: 40;}
-.library #content #library_files li.hover {background: #dedede;}
-.library #content #library_files h2 {line-height: 53px; font-size: 20px; padding-bottom: 10px;}
-.library #content #library_files h3 {font-size: 16px; padding: 5px 20px;}
-.library #content #library_files h3 a {text-decoration: none;}
-.library #content #library_files p {display: none; position: absolute; top: 0; left: 0; padding: 10px; border: 1px solid #dedede; background: #ffffff; box-shadow: 1px 1px 3px #dedede;}
-.library #content .search {padding-bottom: 0px;}
-.library #content .search.loading {background: transparent url(/documentation/img/gx_loader.gif) no-repeat 410px 68px;}
-.library #content .search h2 {font-size: 20px;}
-.library #content .search .field {padding: 0 18px 20px;}
-.library #content .search .field input.default {color: #bcbcbc;}
-.library #content .search .results .function {padding: 15px 0 0; border-top: 1px solid #dedede;}
-.library #content .search .results .function .header h3 {padding-bottom: 5px;}
-.library #content .search .results .function .parameters,
-.library #content .search .results .function .examples,
-.library #content .search .results .function .return,
-.library #content .search .results .function .uses,
-.library #content .search .results .function .description,
-.library #content .search .results .function .definition h4,
-.library #content .search .results .function .definition .name,
-.library #content .search .results .function .definition .shorthand,
-.library #content .search .results .function .definition dt {display: none;}
-.library #content .search .results .function.hover {background: #dedede;}
-.library #content .notes p {display: none;}
-.library #content ul.tools {display: none;}
-.library.docpage #content .functions .function .body {display: none;}
-.library.docpage #content .functions {}
-.library.docpage #content .functions .header {}
-.library.docpage #content .functions .body {border-bottom: 1px solid #bbbbbb;}
-.library.docpage #content .functions .function {padding: 10px 0 0; overflow: hidden; border-top: 1px solid #bbbbbb; background: #ffffff;}
-.library.docpage #content .functions .function .header {}
-.library.docpage #content .functions .function .body {padding: 20px 0 0; border: none;}
-#content .functions div.definition {padding: 0 0 20px;}
-#content .functions div.definition > dl {font-size: 0;}
-#content .functions div.definition > dl dt,
-#content .functions div.definition > dl dd {padding: 0 0 5px; display: inline-block; vertical-align: top;}
-#content .functions div.definition > dl dt {width: 205px; padding-right: 15px; text-align: right;}
-#content .functions div.definition > dl dd {width: 700px;}
-#content .functions div.definition > dl dt.name,
-#content .functions div.definition > dl dd.name {}
-#content .functions div.definition > dl dd.name {font-weight: bold;}
-#content .functions div.description {padding: 0 0 20px;}
-#content .functions div.description > dl {font-size: 0;}
-#content .functions div.description > dl dt,
-#content .functions div.description > dl dd {padding: 0 0 5px; display: inline-block; vertical-align: top;}
-#content .functions div.description > dl dt {width: 205px; padding-right: 15px; text-align: right;}
-#content .functions div.description > dl dd {width: 700px;}
-#content .functions div.callbacks > dl dt.name,
-#content .functions div.callbacks > dl dd.name {}
-#content .functions div.callbacks > dl dd.name {font-weight: bold;}
-#content .functions div.callbacks {padding: 0 0 20px;}
-#content .functions div.callbacks > dl {font-size: 0;}
-#content .functions div.callbacks > dl dt,
-#content .functions div.callbacks > dl dd {padding: 0 0 5px; display: inline-block; vertical-align: top;}
-#content .functions div.callbacks > dl dt {width: 205px; padding-right: 15px; text-align: right;}
-#content .functions div.callbacks > dl dd {width: 700px;}
-#content .functions div.callbacks > dl dt.name,
-#content .functions div.callbacks > dl dd.name {}
-#content .functions div.callbacks > dl dd.name {font-weight: bold;}
-#content .functions div.parameters {padding: 0 0 20px;}
-#content .functions div.parameters > dl {font-size: 0;}
-#content .functions div.parameters > dl dt,
-#content .functions div.parameters > dl dd {padding: 0 0 5px; display: inline-block; vertical-align: top;}
-#content .functions div.parameters > dl dt {width: 205px; padding-right: 15px; text-align: right;}
-#content .functions div.parameters > dl dd {width: 700px;}
-#content .functions div.parameters > dl dd .summary {padding: 0 0 5px;}
-#content .functions div.parameters > dl dd .details {padding: 10px 0 10px; }
-#content .functions div.parameters > dl dd .details h5 {padding: 0 0 5px;}
-#content .functions div.parameters > dl dd .details dl.options {font-size: 0; padding: 0;}
-#content .functions div.parameters > dl dd .details dl.options dt,
-#content .functions div.parameters > dl dd .details dl.options dd {padding: 0 0 5px; display: inline-block; vertical-align: top;}
-#content .functions div.parameters > dl dd .details dl.options dt {width: 90px; padding: 0 10px 0 0; text-align: right;}
-#content .functions div.parameters > dl dd .details dl.options dd {width: 560px;}
-#content .function .return {padding: 0 0 20px;}
-#content .function .examples {padding: 0 0 20px;}
-#content .function .examples .example {padding: 0 20px 10px;}
-#content .function .uses {padding: 0 0 20px;}
-#content .function .uses ul {padding-left: 40px;}
-#content .files {}
-#content .files .header {}
-#content .files .body {}
-#content .files .body ul {padding-left: 40px;}
-#content .segments {}
-#content .segments .header {}
-#content .segments .body {}
-#content .segments .body > dl {font-size: 0;}
-#content .segments .body > dl dt,
-#content .segments .body > dl dd {padding: 0 0 5px; display: inline-block; vertical-align: top;}
-#content .segments .body > dl dt {width: 205px; text-align: right; padding-right: 15px; font-weight: bold;}
-#content .segments .body > dl dd {width: 700px;}
-#content .segments .body > dl dd span.file {white-space: nowrap;}
-code {
-	-moz-tab-size: 4; background: none repeat scroll 0 0 #F7F7F5; display: block; font-family: monaco, courier, sans-serif; font-size: 12px; padding: 20px; white-space: pre;
-}
-
+/*s-content.css*/
+#content {padding: 100px;}
+#content h1 {font-size: 150px;}
+#content h2 {font-size: 86px;}
+#content h3 {font-size: 56px;}
+#content p {font-size: 36px;}
+#content ul {padding: 0 20px 15px; margin: 0 0 0 20px;}
+#content .time,
+#content .geo {padding: 0 20px 15px; margin-top: -15px; color: #aaaaaa;}
+#content .time *,
+#content .geo * {font-size: 13px; color: #aaaaaa;}
+#content .readmore {padding: 0 20px 20px; text-align: right;}
+#content .readmore:after {content: "\00a0>";} 
+#content li:hover .readmore a {text-decoration: underline;}
+#content .addcomment {display: none;}
+#content p.away span.away span {font-size: 44px;}
+#content p.work span.work {color: #aaaaaa;}
+#content p.money span.money {color: red;}
+#content p.money span.more {font-size: 50px;}
+#content p.thinking span.thinking {color: green;}
+#content p.thinking span.less {font-size: 20px;}
+#content p.direction span {font-size: 60px;}
+#content p.right {color: blue;}
+#content h3.wrong {color: red;}
+#content p.left span.left {color: green; font-size: 70px;}
+#content p.left span.corporations {color: blue; font-size: 20px;}
+#footer {text-align: center; padding: 20px;}

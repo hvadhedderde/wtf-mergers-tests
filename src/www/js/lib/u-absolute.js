@@ -1,2 +1,4 @@
 //local
-var absolute;
+var absolute; // comment
+
+var after_comment;
