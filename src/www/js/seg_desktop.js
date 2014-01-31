@@ -13,11 +13,22 @@ if(!u || !Util) {
 /*u-relative.js*/
 
 /*u-absolute.js*/
-var absolute;var after_comment;
+var absolute; 
+var after_comment;
 var relative;
+
+
+/*u-absolute.js*/
+var absolute; 
+var after_comment;
+
+/*u-complicated.js*/
+page.navigate(this.url.replace(/[\d]+$/, page.grid_count), "this");
+page.navigate(this.url.replace(/[\d]+$\//, page.grid_count), "this");
+page.navigate(this.url.replace("'", "" page.grid_count), "this"); 
+page.navigate(this.url)
+var page = "//whatever"
+var page = page()
 var string = "http://www.someurl.dk";
 var string = "//www.someurl.dk";
 var ever;
-
-/*u-absolute.js*/
-var absolute;var after_comment;
