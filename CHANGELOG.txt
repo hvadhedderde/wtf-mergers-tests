@@ -1,2 +1,0 @@
-[2014-01-31] Moved to new git owner
-[2014-01-31] Updated and performed successfully tests
